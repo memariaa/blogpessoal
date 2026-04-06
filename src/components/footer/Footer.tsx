@@ -16,8 +16,12 @@ function Footer() {
             </p>
 
             <div className='flex gap-2'>
-                <LinkedinLogoIcon size={32} weight="bold" />
-                <GithubLogoIcon size={32} weight="bold" />
+                <a href='https://linkedin.com/in/memaria' target="_blank" rel="noopener noreferrer">
+                    <LinkedinLogoIcon size={32} weight="bold" />
+                </a>
+                <a href='https://github.com/memaria' target="_blank" rel="noopener noreferrer">
+                    <GithubLogoIcon size={32} weight="bold" />
+                </a>
             </div>
         </div>
     </div>
